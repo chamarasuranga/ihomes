@@ -9,12 +9,7 @@ namespace PTC.Controllers
     public class HomeController : Controller
     {
 
-        public ActionResult AddHome()
-        {
-
-            return View();
-
-        }
+      
 
 
         public ActionResult Index()
