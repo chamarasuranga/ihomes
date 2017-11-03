@@ -13,41 +13,61 @@
                   
 
                     <div class="form-group">
-                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                        <span class="col-md-1  text-center"><i class="fa fa-user bigicon"></i></span>
                         <div class="col-md-8">
                             <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
                         </div>
                     </div>
                     <div class="form-group">
-                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                        <span class="col-md-1  text-center"><i class="fa fa-user bigicon"></i></span>
                         <div class="col-md-8">
                             <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
                         </div>
                     </div>
-
+                    
                     <div class="form-group">
-                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                        <span class="col-md-1  text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                         <div class="col-md-8">
                             <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                        <span class="col-md-1  text-center"><i class="fa fa-phone-square bigicon"></i></span>
                         <div class="col-md-8">
                             <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                        <span class="col-md-1  text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                         <div class="col-md-8">
                             <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
                         </div>
                     </div>
 
+                    <div>
+                        <div class="imageupload panel panel-default">
+                           
+                            <div class="file-tab panel-body">
+                                <label class="btn btn-default btn-file">
+                                    <span>Browse</span>
+                                    <!-- The file is stored here. -->
+                                    <input type="file" name="image-file" >
+                                </label>
+                                
+                            </div>
+                            
+                        </div>
+                        <!-- bootstrap-imageupload method buttons. -->
+                        <button type="button" id="imageupload-disable" class="btn btn-danger">Disable</button>
+                        <button type="button" id="imageupload-enable" class="btn btn-success">Enable</button>
+                        <button type="button" id="imageupload-reset" class="btn btn-primary">Reset</button>
+
+                    </div>
+
                     <div class="form-group">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-2">
                             <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                         </div>
                     </div>

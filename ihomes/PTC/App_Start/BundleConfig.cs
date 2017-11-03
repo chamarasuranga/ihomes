@@ -23,10 +23,15 @@ namespace PTC
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/ImageUpload").Include(
+                   "~/Scripts/ImageUpload/bootstrap-imageupload.js"));
+
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/font-awesome.css"));
+                      "~/Content/font-awesome.css",
+                      "~/Content/ImageUpload/bootstrap-imageupload.css"));
 
         }
     }
